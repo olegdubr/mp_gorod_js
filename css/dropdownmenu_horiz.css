@@ -1,0 +1,58 @@
+#nav, #nav ul {
+  list-style: none;                          /* Убрали буллеты из нашего списка */
+  margin: 0;                                 /* Обнулили отступы у элементов меню */
+  padding: 0;                                /* Обнулили отступы у элементов меню */
+  border: 1px solid #000;                    /* Украсили меню границей */
+  background: #515151;                       /* Украсили меню задним фоном. Свойство back\ground:none  служит для задания прозрачного фона */
+  float: left;                               /* Заставили каждый элемент списка <li>, встать на одну линию при помощи правила float:left */
+  width: 100%;                               /* Обнулили отступы у элементов меню */
+}
+#nav li {
+  float: left;                               /*  */
+  position: relative;                        /*  */
+  background: #515151;                       /* back\ground: none служит для задания прозрачного фона  */
+  back\ground: ;                         
+} 
+#nav li ul {
+  display: none;                             /* Скрыли подменю 2-го и 3-го уровня, указав display:none */
+}
+#nav a {                                     /* оформили ссылки (чтобы они больше походили на кнопки) */
+  color: #fff;                               /* Обнулили отступы у элементов меню */
+  text-decoration: none;                     /* Убрали подчеркивание */
+  display: block;                            /* Каждому элементу <a> мы присвоили свойство display:block, что дало нашим ссылкам ширину и высоту */
+  width: 150px;                              /* ширину каждой ссылки 120 пикселей */
+  padding: 4px 10px;                         /*  */
+  background: url(dot.png) repeat-y right;   
+}
+#nav a:hover {                               /* срабатывает в том случае, когда мы подводим курсор к ссылке */
+  color: #000;                               
+  background: #ccc;                          /* фон маркера под мышкой */
+}                            
+#nav li:hover {                              /* срабатывает в том случае, когда мы подводим курсор к элементу списка */
+  background: #333;                          /* фон активного пункта меню */
+}
+#nav li ul {
+  display: none;                             /*  */
+}
+#nav li ul {
+  display: none;                             /*  */
+  position: absolute;
+  background: url(fone-tr.png);              /*  */
+  padding: 8px 0;                            /*  */
+  width: 160px;
+}#nav li li a {
+  width: 138px;
+  background: none;
+}
+#nav li:hover ul {
+  display: block;
+}
+#nav li:hover li ul {                        /* оказывает влияние на подменю 3-го уровня */
+  display: none;
+  width: 160px;                              /* Обнулили отступы у элементов меню */
+  top: 9px;                                 /* Обнулили отступы у элементов меню */
+  left: 157px;                               /* Обнулили отступы у элементов меню */
+}
+#nav li:hover li:hover ul {
+  display: block;
+}

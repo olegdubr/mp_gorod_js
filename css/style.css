@@ -1,0 +1,40 @@
+   @charset "utf-8";
+     body {
+    font: 10pt Arial, Helvetica, sans-serif; /* Øðèôò íà âåá-ñòðàíèöå */
+    background: #e1dfb9; /* Öâåò ôîíà */
+   }
+#text
+{
+background:#999; //серый фон
+position:relative; //опять выравниеваем по центру
+margin-top: 10px; /* Отступ сверху */
+margin-left: 10px; /* Отступ слева */
+margin-right: 10px; /* Отступ слева */
+min-height: 600px; /* Минимальная высота */ 
+padding: 10px; /* Поля вокруг текста */
+width:95%;
+}
+
+#sidebar1
+{
+width:190px;
+background:yellow;
+float:left;
+}
+#sidebar2
+{
+width:190px;
+background:yellow;
+float:right;
+}
+.clear
+{
+clear:both;
+
+
+ margin-top: 30px;
+    margin-left: 0px; /* Отступ слева */
+    min-height: 200px; /* Минимальная высота */ 
+    padding: 10px; /* Поля вокруг текста */
+    background: #e4f1d2; /* Цвет фона правой колонки */
+    right: 20px;

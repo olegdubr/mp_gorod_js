@@ -1,0 +1,56 @@
+   @charset "utf-8";
+     body {
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #e1dfb9; /* Цвет фона */
+   }
+   h1 {
+    font-size: 2.1em; /* Размер шрифта */
+    color: #800040; /* Цвет текста */
+    margin-top: 15; /* Отступ сверху */
+   }
+   h2 {
+    font-size: 1.1em; /* Размер шрифта */
+    color: #800040; /* Цвет текста */
+    margin-top: 0; /* Отступ сверху */
+   }
+   #container {
+    width: auto; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #e4f1d2; /* Цвет фона левой колонки */
+   }
+   #header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #94bd5d; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+   }
+    #header 2{
+    font-size: 1em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #94bd5d; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+   }
+   #sidebar {
+    margin-top: 10px; 
+    width: 150px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+   }
+   #content {
+    margin-top: 30px;
+    margin-left: 0px; /* Отступ слева */
+	  min-height: 200px; /* Минимальная высота */ 
+    padding: 10px; /* Поля вокруг текста */
+    background: #e4f1d2; /* Цвет фона правой колонки */
+   }
+   #footer {
+    background: #94bd5d; /* Цвет фона подвала */
+    color: #e4f1d2; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+   }
+
+
+   

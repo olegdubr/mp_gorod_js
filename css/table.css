@@ -1,0 +1,56 @@
+table.one a {  
+    color: black;  
+}  
+ 
+table.one a:hover {  
+    color: black;  
+    text-decoration: none;  
+} 
+table.two a:hover {  
+    color: black;  
+    text-decoration: none; 
+    	width: 100%; 
+} 
+table.three  {
+	width: 500px;
+	border: 1px;
+}
+
+textarea {
+resize: none;
+}
+
+
+
+.form_aut {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    text-align: center;
+
+}
+
+.text_edit .sub_but {
+    margin: 10px 0px 0px 10px;
+}
+
+.personal_stat_table {
+    display: block;
+    margin: 50px auto;
+    border: 1px solid #000000;
+}
+
+.personal_stat_table td {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.headline {
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2em; /* Размер шрифта */
+    color: #800040; /* Цвет текста */
+    margin-top: 15; /* Отступ сверху */
+}
